@@ -28,6 +28,10 @@
             exec $SHELL
           '';
         };
+
+        templates.init = {
+          path = ./templates/init;
+        };
       }
     );
 }
